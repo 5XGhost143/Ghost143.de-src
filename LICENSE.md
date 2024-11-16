@@ -6,7 +6,7 @@ Diesem Code und allen zugehörigen Dateien wird KEINE Lizenz zur Nutzung, Vervie
 
 ## Bedingungen für die Nutzung
 
-Um diesen Code zu nutzen, kopieren, verändern oder in anderer Form zu verwenden, ist eine vorherige schriftliche Erlaubnis des Autors erforderlich. Ohne eine solche Erlaubnis sind jegliche Nutzung und Verbreitung untersagt. Bitte kontaktiere mich unter [deine E-Mail-Adresse hier einfügen], um eine Genehmigung anzufragen.
+Um diesen Code zu nutzen, kopieren, verändern oder in anderer Form zu verwenden, ist eine vorherige schriftliche Erlaubnis des Autors erforderlich. Ohne eine solche Erlaubnis sind jegliche Nutzung und Verbreitung untersagt. Bitte kontaktiere mich unter james.kinzer@t-online.de, um eine Genehmigung anzufragen.
 
 ## Haftungsausschluss
 
