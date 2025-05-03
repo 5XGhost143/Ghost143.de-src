@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyTweets | Upgrading</title>
+    <style>
+        :root {
+            --primary-color: #4f46e5;
+            --primary-hover: #4338ca;
+            --text-color: #1f2937;
+            --background-color: #f9fafb;
+            --card-background: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .upgrade-container {
+            background-color: var(--card-background);
+            border-radius: 0.75rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            width: 100%;
+            max-width: 400px;
+            padding: 2rem;
+        }
+
+        .upgrade-header h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--text-color);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+
+        .upgrade-header p {
+            color: var(--text-color);
+            font-size: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .emoji {
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <div class="upgrade-container">
+        <div class="upgrade-header">
+            <h2><span class="emoji">🚀</span> We Are Upgrading! <span class="emoji">🔧</span></h2>
+            <p>Our system is currently being upgraded to bring you a better experience. <br> Please check back soon! <span class="emoji">⏳</span></p>
+        </div>
+        <p>Thank you for your patience! <span class="emoji">❤️</span></p>
+    </div>
+</body>
+</html>
