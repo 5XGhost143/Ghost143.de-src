@@ -1,5 +1,5 @@
 window.onload = () => {
-  fetch("http://portforward.ghost143.de:8902")
+  fetch("http://45.81.232.218:8902")
     .then(response => response.json())
     .then(data => {
       for (let i = 1; i <= 3; i++) {
