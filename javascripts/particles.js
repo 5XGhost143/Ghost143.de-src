@@ -39,7 +39,6 @@ document.addEventListener('DOMContentLoaded', function() {
         retina_detect: true
     });
 
-    // Add mouse move event listener
     document.addEventListener('mousemove', function(event) {
         var mouseX = event.clientX;
         var mouseY = event.clientY;
