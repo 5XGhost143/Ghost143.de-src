@@ -1,5 +1,5 @@
 window.onload = () => {
-  fetch("https://portforward.ghost143.de")
+  fetch("https://databox.ghost143.de")
     .then(response => response.json())
     .then(data => {
       for (let i = 1; i <= 3; i++) {
@@ -22,7 +22,7 @@ window.onload = () => {
             if (linkUrl.match(/\.(jpeg|jpg|gif|png|webp)$/i)) {
               const img = document.createElement("img");
               img.src = linkUrl;
-              img.alt = "Bild";
+              img.alt = "Image";
               img.style.maxWidth = "100%";
               img.style.borderRadius = "8px";
               img.style.marginBottom = "10px";
