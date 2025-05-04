@@ -50,7 +50,7 @@ window.onload = () => {
       }
     })
     .catch(err => {
-      console.error("error while loading data:", err);
+      console.error("error while loading data (either i messed up my json or my server is down u can check if my server is down when u go on the URL https://databox.ghost143.de)...");
       for (let i = 1; i <= 3; i++) {
         const box = document.getElementById(`box${i}`);
         if (box) box.textContent = "error while loading data (either i messed up my json or my server is down u can check if my server is down when u go on the URL https://databox.ghost143.de)...";
