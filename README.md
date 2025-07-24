@@ -1,1 +1,0 @@
-**Read LICENSE.md**
