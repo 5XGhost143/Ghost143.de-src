@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>FullScreen</key>
+            <true/>
+            <key>IsRemovable</key>
+            <true/>
+            <key>Label</key>
+            <string>Ghost143</string>
+            <key>PayloadType</key>
+            <string>com.apple.webClip.managed</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>org.5xgroup.webapp.webclip</string>
+            <key>PayloadUUID</key>
+            <string>8b8c9f8d-4b2b-4d3e-9a7f-2d8b8c8e8f8f</string>
+            <key>PayloadDisplayName</key>
+            <string>Ghost143.de Web</string>
+            <key>Organization</key>
+            <string>5X Studios</string>
+            <key>URL</key>
+            <string>https://ghost143.de</string>
+        </dict>
+    </array>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadIdentifier</key>
+    <string>org.5xgroup.webapp.profile</string>
+    <key>PayloadUUID</key>
+    <string>7a7b8c8d-3a2b-1c1e-0d9f-8e7f6d5c4b3a</string>
+    <key>PayloadDisplayName</key>
+    <string>Ghost143.de Web</string>
+    <key>Organization</key>
+    <string>5X Studios</string>
+</dict>
+</plist>
