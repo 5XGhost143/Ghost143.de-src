@@ -8,7 +8,7 @@
 window.onload = function() {
     var userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
-    console.log("User Agent: " + userAgent); // Logging
+    console.log("[DEBUG] User Agent: " + userAgent); // Logging
 
     // iDevice Check
     if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
