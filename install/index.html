@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Installation</title>
+<script>
+  window.onload = function() {
+    var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+      window.location.href = "ios.mobileconfig";
+    } else {
+      document.getElementById("info").style.display = "block";
+    }
+  }
+</script>
+</head>
+<body>
+<h1>Installation</h1>
+<div id="info" style="display:none;">
+  <p>Your device is currently not supported. This App can only be installed on an iDevice (iPhone, iPadOS tested)</p>
+</div>
+</body>
+</html>
