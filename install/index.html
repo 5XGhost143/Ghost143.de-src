@@ -5,18 +5,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Installation</title>
 <script>
-  window.onload = function() {
+window.onload = function() {
     var userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
     console.log("User Agent: " + userAgent); // logging
 
-    // iDevice Check via. User Agent should work
+    // iDevice Check
     if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-      window.location.href = "ios.mobileconfig";
+        window.location.href = "ios.mobileconfig";
     } else {
-      document.body.innerHTML = "<p>Your device is currently not supported. This App can only be installed on an iDevice (iPhone, iPadOS tested).</p>";
+        document.body.innerHTML = `
+            <h1>Error</h1>
+            <p>Your device is currently not supported. This App can only be installed on an iDevice.</p>
+            <footer style="margin-top: 20px; font-size: 0.8em; color: black;">
+                &copy; 2025 Ghost143
+            </footer>
+        `;
     }
-  }
+}
 </script>
 </head>
 <body>
