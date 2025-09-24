@@ -25,6 +25,12 @@
             <string>5X Studios</string>
             <key>URL</key>
             <string>https://ghost143.de</string>
+            <key>IgnoreManifestScope</key>
+            <true/>
+            <key>Precomposed</key>
+            <true/>
+            <key>TargetApplicationBundleIdentifier</key>
+            <string>com.apple.mobilesafari</string>
         </dict>
     </array>
     <key>PayloadType</key>
