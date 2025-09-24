@@ -8,6 +8,8 @@
   window.onload = function() {
     var userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
+    console.log("User Agent: " + userAgent);
+
     if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
       window.location.href = "ios.mobileconfig";
     } else {
