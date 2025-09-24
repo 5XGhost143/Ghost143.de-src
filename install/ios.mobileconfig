@@ -12,7 +12,7 @@
             <key>Label</key>
             <string>Ghost143</string>
             <key>PayloadType</key>
-            <string>org.5xgroup.webClip.managed</string>
+            <string>com.apple.webClip.managed</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>PayloadIdentifier</key>
