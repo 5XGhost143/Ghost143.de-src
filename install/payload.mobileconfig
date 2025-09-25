@@ -35,6 +35,8 @@
             <true/>
             <key>TargetApplicationBundleIdentifier</key>
             <string>com.apple.mobilesafari</string>
+            <key>Orientation</key>
+            <string>Portrait</string>
         </dict>
     </array>
     <key>PayloadType</key>
